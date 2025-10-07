@@ -10,5 +10,7 @@ public class RunSingleThreadLogger {
         logger2.log("Still using the same logger instance!");
 
         System.out.println("Same instance? " + (logger1 == logger2));
+
+        System.out.println("Application finished.");
     }
 }
