@@ -1,4 +1,5 @@
 package observer.simple;
 
-public class ButtonListener {
+public interface ButtonListener {
+    void onClick();
 }
